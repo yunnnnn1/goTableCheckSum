@@ -1,22 +1,19 @@
 package PublicFunc
-<<<<<<< HEAD
 
 import mgorm "goProject/mgorm/ExecQuerySQL"
 
-func TypeSql(a map[string]*mgorm.Connection, m,o string) (string,string) {
-	var SstrSql,DstrSql string
+func TypeSql(a map[string]*mgorm.Connection, m, o string) (string, string) {
+	var SstrSql, DstrSql string
 	//1、判断表明是否相同,列名是否相同，输出相同的表名
 	if a["source"].DriverName == "mysql" {
 		SstrSql = m
-	}else{
+	} else {
 		SstrSql = o
 	}
 	if a["dest"].DriverName == "mysql" {
 		DstrSql = m
-	}else{
+	} else {
 		DstrSql = o
 	}
-	return SstrSql,DstrSql
+	return SstrSql, DstrSql
 }
-=======
->>>>>>> ce765399f3d2115cfbd3137bdf1c015bc310c867

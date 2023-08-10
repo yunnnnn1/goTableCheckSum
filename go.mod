@@ -7,8 +7,8 @@ require (
 	github.com/godror/godror v0.23.1
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/siddontang/go-mysql v1.1.0
-	github.com/sirupsen/logrus v1.8.0 // indirect
 	github.com/urfave/cli v1.22.5
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.16.0
+	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 )
